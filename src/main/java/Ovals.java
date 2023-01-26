@@ -1,19 +1,7 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
-// Description: Subclass of TwoDimensionalShapes to make ovals          
-//              
-// Challenges: Figuring out perimeter and area calculations. Calculations
-//             are an estimate because cannot get exact answer with just 2 points.
-// Time Spent: 1 hour
+// Subclass of TwoDimensionalShapes to make ovals          
 
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 04/15/20   Peter Nguyen  Created class and constructors and methods  
- * 04/16/20   Peter Nguyen  Finished class 
-*/  
 import java.awt.*;
 import java.awt.geom.*;
 import java.lang.*;
