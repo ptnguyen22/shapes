@@ -1,26 +1,6 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
-// Description: Subclass of shapes and superclass to specific 2d shapes
-//              
-//              
-// Challenges: Implementing Comparable<> from API and using it. Figuring out
-//             how this class will interact with Shapes class and subclasses.
-// Time Spent: 2 hours
-
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 02/01/20   Peter Nguyen  Created class and constructors                      
- * 
- * 02/02/20   Peter Nguyen  Made getter methods and abstract methods
- *      
- * 02/03/20   Peter Nguyen  Made compareTo() and max()
- *
- * 04/16/20   Peter Nguyen  Added new instance Points variable and method to
- *                          return the lower point of the 2
-*/    
+// Subclass of shapes and superclass to specific 2d shapes   
 
 import java.awt.Color;
 abstract class TwoDimensionalShapes extends Shapes 
