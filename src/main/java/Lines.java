@@ -1,23 +1,7 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+//Peter Nguyen
  
-// Description: Subclass of TwoDimensionalShapes to make lines        
-//              
-// Challenges: Figuring out how constructors will interact with superclass
-//             constructors
-// Time Spent: 1 hour
-
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 02/03/20   Peter Nguyen  Created class and constructors                      
- * 
- * 02/05/20   Peter Nguyen  Created set and get methods for area, radius,                   
- *                          perimeter and name.    
- * 04/12/20   Peter Nguyen  Added new constructor, added paint method and
- *                          comprehensive toString() method.
-*/  
+//Subclass of TwoDimensionalShapes to make lines        
+  
 import java.awt.*;
 import java.awt.geom.*;
 
