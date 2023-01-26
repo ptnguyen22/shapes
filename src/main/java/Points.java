@@ -1,19 +1,7 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
-// Description: Class to make points for all shapes
-//              
-//              
-// Challenges: None
-// Time Spent: 30 minutes
-
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 02/03/20   Peter Nguyen  Created class,construcor,getter methods,                  
- *                          override toString()
-*/  
+// Class to make points for all shapes
+  
 public class Points {
     
     //Instance variables to make a point
