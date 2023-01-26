@@ -1,22 +1,7 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
 // Description: Subclass of TwoDimensionalShapes to make rectangles            
-//              
-// Challenges: Figuring out constructors interact with super constructors
-//             
-// Time Spent: 1 hour
 
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 02/06/20   Peter Nguyen  Created class and constructors                      
- * 
- * 02/08/20   Peter Nguyen  Created set and get methods for area,                   
- *                          perimeter and name.    
- * 04/13/20   Peter Nguyen  Added new constructors, tostring and paint methods
-*/      
 import java.awt.*;
 import java.awt.geom.*;
 public class Rectangles extends TwoDimensionalShapes{
