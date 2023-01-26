@@ -1,23 +1,6 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
-// Description: Superclass for all shapes             
-//              
-// Challenges: Figuring out what all shapes have in common to use in this 
-//             superclass. Learning about Color in api and how to use it.
-// Time Spent: 2 hour
-
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 02/01/20   Peter Nguyen  Created class, instance variables, and constructors                     
- * 
- * 02/03/20   Peter Nguyen  Created set and get methods each coordinate value,
- *                          method to set color and method to format coordinate,
- *                          and overriding toString()
- * 04/12/20   Peter Nguyen  Added new constructors and instance variables
-*/                          
+// Superclass for all shapes                                    
 
 import java.awt.Color;
 
