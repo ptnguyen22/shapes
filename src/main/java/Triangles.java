@@ -1,21 +1,7 @@
-// File name: pnA3
-
-// Written by: Peter Nguyen
+// Peter Nguyen
  
-// Description: Subclass of TwoDimensionalShapes to make lines            
-//              
-// Challenges: Figuring out how to calculate the 3 points needed to draw a
-//             triangle from the given 2 points. How to create a path to draw
-//             a polygon.
-// Time Spent: 1 hour
+// Subclass of TwoDimensionalShapes to make lines            
 
-// Revision History:
-// Date:        By:      Action:
-// ---------------------------------------------------
-/* 04/15/20 Peter Nguyen Created class and methods.
- * 04/16/20 Peter Nguyen Fixed up point calculations and finished path code
- *                       to draw polygon.
-*/  
 
 import java.awt.*;
 import java.awt.geom.*;
