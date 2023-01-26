@@ -1,31 +1,8 @@
-// File name: pnA3
-// Written by: Peter Nguyen
-// Description: Graphics class using jframe with inner classes that create jpanel 
-//              components and act as action listeners.
-// Challenges: paintComponent() method would cause problems with other jcomponents
-//             unless I called the super so I had to figure out a way to
-//             keep shapes drawn that don't get erased from the super call.
-//             Took a while to plan how all the inner classes interact and ended 
-//             up reworking the shapes classes to draw the objects and stored all 
-//             the created shape objects in array lists that get redrawn when
-//             repaint() is called. Also creating code to change points so user
-//             can click and release using any corners and it will draw within
-//             those two corners.
-// Time Spent: 8 hours
+// Peter Nguyen
+/* Graphics class using jframe with inner classes that create jpanel 
+   components and act as action listeners.
+*/
 
-// Revision History:
-// Date:        By:      Action:
-// --------------------------------------------------- 
-/* 04/10/20   Peter Nguyen  Created class, started on gui components.
- * 04/12/20   Peter Nguyen  Started paint method and plan to store drawn objects.
- * 04/13/20   Peter Nguyen  Reworked paint method and created a system of
- *                          storage for all drawn objects.
- * 04/14/20   Peter Nguyen  Finished menu and menu items, started on implmentation
- *                          of text items and font system.
- * 04/15/20   Peter Nguyen  Finished functional code and optimized some logic.
- * 04/16/20   Peter Nguyen  Cleaned up code and comments. Created borders and
- *                          added format and styling to gui.
-*/ 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
